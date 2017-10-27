@@ -3,13 +3,11 @@
 .sidepanel{
 	text-align: center;
 	height: 100vh;
-	background-color: #507384 !important;
-	z-index: 9000 !important;
+	background-color: #507384;
 }
 
 .mainveiw{
 	background-color: #052B49;
 	text-align: center;
 	height: 100vh;
-	z-index: 0;
 }
