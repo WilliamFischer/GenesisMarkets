@@ -1,0 +1,14 @@
+
+
+.sidepanel{
+	text-align: center;
+	height: 100vh;
+	box-shadow: -10px 0px 10px orange;
+	background-color: #507384 !important;
+}
+
+.mainveiw{
+	background-color: #052B49;
+	text-align: center;
+	height: 100vh;
+}
