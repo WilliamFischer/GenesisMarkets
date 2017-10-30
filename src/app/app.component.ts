@@ -8,12 +8,19 @@ import { FacebookService, InitParams, LoginResponse } from 'ngx-facebook';
 })
 
 export class AppComponent{
+
+  myDate: any;
+  
   constructor(private fb: FacebookService) {
     let initParams: InitParams = {
       appId: '1684621208533373',
       xfbml: true,
       version: 'v2.8'
     };
+
+    setInterval(() => {
+      this.myDate = new Date();
+    }, 1000);
 
     fb.init(initParams);
   }

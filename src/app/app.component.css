@@ -1,13 +1,233 @@
-
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 
 .sidepanel{
 	text-align: center;
 	height: 100vh;
-	background-color: #507384;
+	background-color: #1C1A27;
+	padding: 1.5% !important;
+	box-shadow: 0px 0px 30px 5px black !important;
+	position: absolute;
 }
 
 .mainveiw{
-	background-color: #052B49;
+	background-color: #0E0D15;
 	text-align: center;
 	height: 100vh;
+	margin-left: 16.7vw !important;
+	padding: 5% !important;
+}
+
+.fbbtn{
+	font-size: 10px !important;
+	border:2px solid #3b5998 !important;
+	background-color: transparent !important;
+	width: 100%;
+	height: 6vh !important;
+	margin-top: 30vh !important;
+	line-height: 5.5vh !important;
+	font-family: sans-serif;
+	color: #fff !important;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+.livetradesblock{
+	border-top: 7vh solid #1F1D2B;
+	margin-left: -1.5vw !important;
+	margin-top: 10vh !important;
+	height: 30vh;
+	width: 16.5vw;
+	padding: 2vw !important;
+	padding-top: 2vw !important;
+}
+
+.itemcard{
+	width: 100%;
+	height: 8vh;
+	border: 2px solid #841F30;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 1px #0E0D15;
+	margin-top: 4vh !important;
+}
+
+.explan{
+	font-size: 36px;
+	margin-top: 1.2vh !important;
+	margin-left:0.5vw !important;
+	padding-right: 2vw !important;
+	position: absolute;
+}
+
+.moretext{
+	color: #fafafa;
+	margin-top: 3vh !important;
+	margin-left:2vw !important;
+	font-size: 12px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	letter-spacing: 1px;
+}
+
+.totalval{
+	margin-top: 12vh !important;
+	position: absolute;
+	color: #6C7A89;
+	font-family: 'PT Sans Narrow', sans-serif;
+	width: 80%;
+	text-align: center;
+}
+
+
+h3{
+	margin-top: 20vh !important;
+	position: absolute;
+	color: #6C7A89;
+	font-family: 'PT Sans Narrow', sans-serif;
+	width: 80%;
+	text-align: center;
+	font-size: 16px !important;
+}
+
+
+.itemchip{
+	width: 200px;
+	height: 200px;
+	box-shadow: 0px 0px 30px black;
+	background: linear-gradient(to top right, #1A1925 , #1F1D2A);
+	border-radius: 5px;
+}
+
+.bottombit{
+	margin-top: 20vh !important;
+	height: 50px;
+	background-color: #201E2E;
+	width: 200px;
+	position: absolute;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.bottombitside{
+	height: 50px;
+	background-color: #191725;
+	width: 120px;
+	position: absolute;
+	left: 0;
+	border-bottom-left-radius: 5px;
+}
+
+.price{
+	position: absolute;
+	margin-left: 70% !important;
+	font-size: 18px !important;
+	color: #6C7A89;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 21px;
+	margin-top: 1.5vh !important;
+}
+
+.price span{
+	color: #841F30;
+	font-size: 17px;
+}
+
+.name{
+	position: absolute;
+	margin-left: 17% !important;
+	font-size: 16px !important;
+	color: #6C7A89;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 21px;
+	margin-top: 1.9vh !important;
+}
+
+
+
+
+
+.eye {
+  width: 100px;
+  height: 100px;
+  top: calc(50% - 75px);
+  left: calc(50% - 50px);
+  background-color: #ECF0F1;
+  border-radius: 100%;
+  position: absolute;
+  -webkit-perspective: 500px;
+          perspective: 500px;
+  overflow: hidden;
+	margin-top: -35vh !important;
+	box-shadow: 0px 0px 40px black;
+}
+.eye .iris {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  -webkit-transform: rotateX(-50deg) rotateY(15deg) translateZ(68px) scale(0.6);
+          transform: rotateX(-50deg) rotateY(15deg) translateZ(68px) scale(0.6);
+  background: radial-gradient(ellipse at center, #e8e8e8 13%, #1C1A27 15%, #1C1A27 15%, #1C1A27 25%, #1C1A27 44%, #1C1A27 51%, #fffcf9 53%, rgba(210, 210, 210, 0.4) 56%, rgba(0, 0, 0, 0) 71%);
+  border-radius: 100%;
+}
+.eye .iris.anim {
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: iris;
+          animation-name: iris;
+}
+
+@-webkit-keyframes iris {
+  0%, 100% {
+    -webkit-transform: rotateX(-10deg) rotateY(15deg) translateZ(68px) scale(0.6);
+            transform: rotateX(-10deg) rotateY(15deg) translateZ(68px) scale(0.6);
+  }
+  10% {
+    -webkit-transform: rotateX(-50deg) rotateY(15deg) translateZ(68px) scale(0.6);
+            transform: rotateX(-50deg) rotateY(15deg) translateZ(68px) scale(0.6);
+  }
+  30% {
+    -webkit-transform: rotateX(-30deg) rotateY(-5deg) translateZ(68px) scale(0.6);
+            transform: rotateX(-30deg) rotateY(-5deg) translateZ(68px) scale(0.6);
+  }
+  45% {
+    -webkit-transform: rotateX(-20deg) rotateY(-15deg) translateZ(68px) scale(0.6);
+            transform: rotateX(-20deg) rotateY(-15deg) translateZ(68px) scale(0.6);
+  }
+  55%, 60% {
+    -webkit-transform: rotateX(0deg) rotateY(0deg) translateZ(68px) scale(0.6);
+            transform: rotateX(0deg) rotateY(0deg) translateZ(68px) scale(0.6);
+  }
+  90% {
+    -webkit-transform: rotateX(30deg) rotateY(5deg) translateZ(68px) scale(0.6);
+            transform: rotateX(30deg) rotateY(5deg) translateZ(68px) scale(0.6);
+  }
+}
+
+@keyframes iris {
+  0%, 100% {
+    -webkit-transform: rotateX(-10deg) rotateY(15deg) translateZ(68px) scale(0.6);
+            transform: rotateX(-10deg) rotateY(15deg) translateZ(68px) scale(0.6);
+  }
+  10% {
+    -webkit-transform: rotateX(-50deg) rotateY(15deg) translateZ(68px) scale(0.6);
+            transform: rotateX(-50deg) rotateY(15deg) translateZ(68px) scale(0.6);
+  }
+  30% {
+    -webkit-transform: rotateX(-30deg) rotateY(-5deg) translateZ(68px) scale(0.6);
+            transform: rotateX(-30deg) rotateY(-5deg) translateZ(68px) scale(0.6);
+  }
+  45% {
+    -webkit-transform: rotateX(-20deg) rotateY(-15deg) translateZ(68px) scale(0.6);
+            transform: rotateX(-20deg) rotateY(-15deg) translateZ(68px) scale(0.6);
+  }
+  55%, 60% {
+    -webkit-transform: rotateX(0deg) rotateY(0deg) translateZ(68px) scale(0.6);
+            transform: rotateX(0deg) rotateY(0deg) translateZ(68px) scale(0.6);
+  }
+  90% {
+    -webkit-transform: rotateX(30deg) rotateY(5deg) translateZ(68px) scale(0.6);
+            transform: rotateX(30deg) rotateY(5deg) translateZ(68px) scale(0.6);
+  }
 }
